@@ -42,7 +42,7 @@ public class MyWindow extends JFrame{
 	}
 	public void clock() {
 		
-		Timer timer = new Timer(1000,new ActionListener()
+		Timer time = new Timer(1000,new ActionListener()
 				{
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -51,7 +51,7 @@ public class MyWindow extends JFrame{
 				clockLabel.setText(dateTime);
 			}
 				});
-		timer.start();
+		time.start();
 
 	}
 
